@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="theme_labels">
+        <item>@string/blue_label</item>
+        <item>@string/yellow_label</item>
+        <item>@string/red_label</item>
+        <item>@string/pink_label</item>
+        <item>@string/black_label</item>
+    </array>
+
+    <array name="theme_values">
+        <item>@string/blue_value</item>
+        <item>@string/yellow_value</item>
+        <item>@string/red_value</item>
+        <item>@string/pink_value</item>
+        <item>@string/black_value</item>
+    </array>
+</resources>

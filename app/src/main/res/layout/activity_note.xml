@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.diacious.mynotepad.NoteActivity">
+<ScrollView
+    android:id="@+id/view_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/note_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="@string/note"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textIsSelectable="false"
+        android:textColor="@android:color/black"
+        />
+</ScrollView>
+
+    <ScrollView
+        android:id="@+id/edit_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+        android:id="@+id/note_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notebox"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        />
+</ScrollView>
+
+
+</FrameLayout>
