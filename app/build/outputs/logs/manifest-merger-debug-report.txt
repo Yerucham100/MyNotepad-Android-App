@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:5:22-78
+application
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:7:5-54:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DIACIOUS\.android\build-cache\de1168b0fbfdb6ca3ca5087b781a1ead1d52743e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:preference-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\70419515c076400667b9b4fb667499241b8d5101\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\adbdd9698cb3be0cd7fe25c15fa4d63b8cdb8a02\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\DIACIOUS\.android\build-cache\7477f7c56ccb5f90fc75956bd6c527cd9f3d4d1f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\DIACIOUS\.android\build-cache\064c4a8ebf0899f9ae0db5e1e70a96b1346afc60\output\AndroidManifest.xml:26:5-20
+MERGED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:26:5-40:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\DIACIOUS\.android\build-cache\7f2cac195fada6b2697d5e2bde8977bcb4ea5e35\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\DIACIOUS\.android\build-cache\9e6ab946cd179139ffd322c421a572505f6a6595\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\DIACIOUS\.android\build-cache\86f092bb322fe813278d5b41dd8018855fed9744\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\DIACIOUS\.android\build-cache\265ebc3e28fd878742597498f32795c3f7234d15\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\DIACIOUS\.android\build-cache\b56d895bffb524cb050b8a91c5b5c05e435438d3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\DIACIOUS\.android\build-cache\6455b1b2fdb032a05a71c00832c0c629791570aa\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.diacious.mynotepad.MainActivity
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:launchMode
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:16:13-43
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.example.diacious.mynotepad.NoteActivity
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:23:19-47
+provider#com.example.diacious.mynotepad.NotesProvider
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:25:9-28:40
+	android:authorities
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:27:13-65
+	android:exported
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:26:13-42
+activity#com.example.diacious.mynotepad.SettingsActivity
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:30:9-37:20
+	android:label
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:32:13-45
+	android:parentActivityName
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:33:13-55
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:31:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:34:13-36:49
+	android:value
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:36:17-46
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:35:17-63
+activity#com.example.diacious.mynotepad.AboutActivity
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:38:9-40:45
+	android:label
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:40:13-42
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:39:13-42
+service#com.example.diacious.mynotepad.NoteReminderService
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:42:9-48:19
+	android:exported
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:43:13-48
+intent-filter#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:45:13-47:29
+action#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:46:25-81
+activity#com.example.diacious.mynotepad.PasswordActivity
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:50:9-52:54
+	android:label
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:52:13-51
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:51:13-45
+activity#com.example.diacious.mynotepad.SignInActivity
+ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:53:9-61
+	android:name
+		ADDED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml:53:19-49
+uses-sdk
+INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DIACIOUS\.android\build-cache\de1168b0fbfdb6ca3ca5087b781a1ead1d52743e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:preference-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\70419515c076400667b9b4fb667499241b8d5101\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\adbdd9698cb3be0cd7fe25c15fa4d63b8cdb8a02\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\DIACIOUS\.android\build-cache\7477f7c56ccb5f90fc75956bd6c527cd9f3d4d1f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\DIACIOUS\.android\build-cache\064c4a8ebf0899f9ae0db5e1e70a96b1346afc60\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\f5b8a2a093cca7441a82708ed3fa5fd8419a73fc\output\AndroidManifest.xml:20:5-43
+MERGED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\DIACIOUS\.android\build-cache\7f2cac195fada6b2697d5e2bde8977bcb4ea5e35\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\DIACIOUS\.android\build-cache\9e6ab946cd179139ffd322c421a572505f6a6595\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\DIACIOUS\.android\build-cache\86f092bb322fe813278d5b41dd8018855fed9744\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\DIACIOUS\.android\build-cache\265ebc3e28fd878742597498f32795c3f7234d15\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\DIACIOUS\.android\build-cache\b56d895bffb524cb050b8a91c5b5c05e435438d3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\DIACIOUS\.android\build-cache\6455b1b2fdb032a05a71c00832c0c629791570aa\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\adbdd9698cb3be0cd7fe25c15fa4d63b8cdb8a02\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DIACIOUS\Documents\Java\Android\MyNotepad\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:preference-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\70419515c076400667b9b4fb667499241b8d5101\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\adbdd9698cb3be0cd7fe25c15fa4d63b8cdb8a02\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\DIACIOUS\.android\build-cache\7477f7c56ccb5f90fc75956bd6c527cd9f3d4d1f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\DIACIOUS\.android\build-cache\064c4a8ebf0899f9ae0db5e1e70a96b1346afc60\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\f5b8a2a093cca7441a82708ed3fa5fd8419a73fc\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\DIACIOUS\.android\build-cache\7f2cac195fada6b2697d5e2bde8977bcb4ea5e35\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\DIACIOUS\.android\build-cache\9e6ab946cd179139ffd322c421a572505f6a6595\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\DIACIOUS\.android\build-cache\86f092bb322fe813278d5b41dd8018855fed9744\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\DIACIOUS\.android\build-cache\265ebc3e28fd878742597498f32795c3f7234d15\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\DIACIOUS\.android\build-cache\b56d895bffb524cb050b8a91c5b5c05e435438d3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\DIACIOUS\.android\build-cache\6455b1b2fdb032a05a71c00832c0c629791570aa\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:preference-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\70419515c076400667b9b4fb667499241b8d5101\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:preference-v7:25.3.1] C:\Users\DIACIOUS\.android\build-cache\70419515c076400667b9b4fb667499241b8d5101\output\AndroidManifest.xml:23:9-47
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:33:13-73
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.5.0] C:\Users\DIACIOUS\.android\build-cache\08ed4ea030971724348203ae5562790573290052\output\AndroidManifest.xml:37:25-84
