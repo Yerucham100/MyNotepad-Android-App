@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.diacious.mynotepad.SignInActivity">
+
+    <EditText
+        android:id="@+id/verify_password_et"
+        android:layout_width="200dp"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:background="@drawable/password_entry_box"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/my_notepad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:layout_above="@id/verify_password_et"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_notepad"
+        android:scaleX = "2"
+        android:scaleY="2"
+        android:layout_above="@id/my_notepad_title"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_below="@id/verify_password_et"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

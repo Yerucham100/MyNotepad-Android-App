@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:title="@string/delete_note"
+    android:icon="@android:drawable/ic_menu_delete"
+    android:id="@+id/delete_btn"
+    android:orderInCategory="1"
+    app:showAsAction="always"
+    android:visible="false" />
+
+    <item
+        android:title="@string/add_note"
+        android:icon="@android:drawable/ic_menu_add"
+        android:id="@+id/add_btn"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:visible="true"/>
+
+    <item
+        android:title="@string/settings"
+        android:id="@+id/settings_btn"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/about"
+        android:id="@+id/about_btn"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+
+</menu>
