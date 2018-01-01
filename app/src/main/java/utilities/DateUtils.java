@@ -58,6 +58,7 @@ public final class DateUtils
     /**
      * Method to send a time stamp for the main UI indicating the time the note was formed or last edited
      * @param dateAndTimeWhenNoteWasFormed Date string of when the note was formed or last edited
+     * @param context The calling activity context
      * @return The timestamp
      */
     public static String formatNoteTime(String dateAndTimeWhenNoteWasFormed, Context context){

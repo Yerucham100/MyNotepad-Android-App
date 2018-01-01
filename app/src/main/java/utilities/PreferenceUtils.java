@@ -83,6 +83,8 @@ public class PreferenceUtils
 
     /**
      * Method to save in shared preferences that password option is turned on
+     * @param isPasswordOn Boolean that is true if password option is turned on
+     * @param context The calling activity context
      */
     public static void passwordTurnedOn(boolean isPasswordOn, Context context)
     {
@@ -115,7 +117,7 @@ public class PreferenceUtils
 
     /**
      * Method to prevent main activity from launching signin activity when theme is changed at runtime
-     * @return
+     * @return True if theme is changed at runtime else false
      */
     public static boolean themeChangedAtRuntime()
     {

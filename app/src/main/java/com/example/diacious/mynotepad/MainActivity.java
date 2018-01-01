@@ -276,6 +276,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     /**
      * Method to force the loader to reload when a note is added or updated
+     * @param notesUnchanged True if no new note was added, no note deleted or modified else false
      */
     public void noteUpdated(boolean notesUnchanged){
         noNoteUpdatedOrAdded = notesUnchanged;
