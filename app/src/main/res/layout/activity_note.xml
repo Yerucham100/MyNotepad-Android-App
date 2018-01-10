@@ -36,6 +36,7 @@
         android:background="@drawable/notebox"
         android:padding="16dp"
         android:textSize="18sp"
+        android:inputType="textCapSentences"
         android:visibility="gone"
         android:textColor="@android:color/black"
         />
