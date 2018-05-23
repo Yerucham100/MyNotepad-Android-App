@@ -21,9 +21,10 @@ public final class NoteContract
                                                               .appendPath(PATH)
                                                               .build();
 
-        public static final String TABLE_NAME = "notes_table";
+        public static final String TABLE_NAME = "notes_table2";
         public static final String COLUMN_NOTES = "notes_column";
         public static final String COLUMN_TIME = "note_times";
+        public static final String ACTUAL_TIME = "note_time_not_a_string";
 
 
     }

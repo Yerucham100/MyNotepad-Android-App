@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                         null,
                         null,
                         null,
-                        NoteContract.NoteEntries.COLUMN_TIME + " DESC");
+                        NoteContract.NoteEntries.ACTUAL_TIME + " DESC");
             }
 
             @Override
